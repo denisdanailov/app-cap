@@ -23,7 +23,7 @@ const theme = createTheme();
 
 export default function SignInSide() {
   const [error, setError] = useState('');
-  const [loading, setLoading] = useState(true);
+ 
 
   const navigate = useNavigate();
 
@@ -50,7 +50,7 @@ export default function SignInSide() {
         <Alert severity="error">Failed to Sign in</Alert>
     </Stack>);
     }
-    setLoading(false);
+    
   };
 
   return (

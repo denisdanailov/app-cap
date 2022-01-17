@@ -50,7 +50,7 @@ export default function Footer() {
                 <LocalPhoneIcon sx={{ mr: 5 }} />
                 +49 01 01 01 01
               </Typography>
-              <Typography variant="h6" align="left" align="center" >
+              <Typography variant="h6"  align="center" >
                 <EmailIcon sx={{ mr: 4 }} />
                 capp@email.com
               </Typography>

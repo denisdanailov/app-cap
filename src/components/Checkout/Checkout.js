@@ -43,7 +43,7 @@ export default function Checkout() {
 
     let totalSum = 0;
     products.map((product) => {
-        totalSum += Number(product.price)
+       return totalSum += Number(product.price)
     });
 
     const onOrder = (event) => {

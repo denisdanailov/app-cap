@@ -4,26 +4,12 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { CssBaseline } from '@material-ui/core';
-import fireDb from '../../services/firebaseDatabase'
-import { useState, useEffect } from 'react'
 import CardProduct from '../CardProduct/CardProduct';
 
 
 export default function Products() {
 
   const classes = useStyles();
-
-  const [data, setData] = useState({});
-
-  useEffect(() => {
-      fireDb.child("products").on("value", (snapshot) => {
-          if (snapshot.val() !== null) {
-              setData({ ...snapshot.val() });
-          } else {
-              setData({});
-          }
-      });
-  }, []);
 
   return (
     <div className={classes.root} id="products">

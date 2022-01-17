@@ -75,12 +75,11 @@ export default function About() {
             <Typography
              component="h1"
              variant="h3"
-             align="center"
              color="#fff"
              fontSize={'3.5rem'}
              gutterBottom
              fontWeight={600}
-             align="left" paragraph
+             paragraph
              sx={{
               mt:25    
             }}>

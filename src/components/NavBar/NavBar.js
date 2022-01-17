@@ -43,7 +43,7 @@ export default function NavBar() {
     }
 
   }
-
+  console.log(error);
   let guestNavigation = (
 
     <Toolbar  className={classes.appbarWrapper}>
