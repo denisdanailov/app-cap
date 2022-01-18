@@ -7,3 +7,5 @@ With Realtime Database [Firebase](https://firebase.google.com)
 Domain [app-cap](https://app-cap.netlify.app/).
 
 ![alt text](https://raw.githubusercontent.com/denisdanailov/app-cap/main/Screen-img.png)
+
+**functionality**
