@@ -6,7 +6,7 @@ With Realtime Database [Firebase](https://firebase.google.com)
 
 Domain [app-cap](https://app-cap.netlify.app/).
 
-### **Functionality**
+### **Functionality:**
 
 - Login
 - Register
