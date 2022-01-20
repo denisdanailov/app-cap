@@ -9,6 +9,8 @@ Component library [MUI](https://mui.com)
 
 Domain [app-cap](https://app-cap.netlify.app/).
 
+(This Application is for teaching purposes)
+
 ### **Functionality:**
 
 - Login
