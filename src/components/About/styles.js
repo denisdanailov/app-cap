@@ -3,7 +3,12 @@ import { makeStyles } from '@material-ui/core';
 export default makeStyles(() => ({
 
     root:{
-        minHeight: '100vh'
+        minHeight: '100vh',
+        
+        ['@media (max-width:490px)']: { 
+          display: 'none',
+          
+        }
       },
      
       productsBtn: {
@@ -22,5 +27,9 @@ export default makeStyles(() => ({
       aboutProducts: {
         display: 'flex',
         alignItems: 'center',
-      }
-}));
+        
+      },
+    
+      
+}))
+

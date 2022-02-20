@@ -20,3 +20,4 @@ let firebaseConfig = {
 const fireDb = firebase.initializeApp(firebaseConfig);
 
 export default fireDb.database().ref();
+

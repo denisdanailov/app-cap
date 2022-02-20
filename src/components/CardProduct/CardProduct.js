@@ -30,6 +30,7 @@ export default function ProductCard() {
     fireDb.child("products").on("value", (snapshot) => {
       if (snapshot.val() !== null) {
         setData({ ...snapshot.val() });
+      
       } else {
         setData({});
       }
@@ -37,7 +38,6 @@ export default function ProductCard() {
     setLoading(false);
   }, []);
 
-  
   return (
     <div className={classes.root} >
       <NavBar />

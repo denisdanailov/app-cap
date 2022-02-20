@@ -1,4 +1,6 @@
 import { makeStyles } from '@material-ui/core';
+import { textAlign } from '@mui/system';
+
 
 export default makeStyles(() => ({
 
@@ -42,12 +44,21 @@ export default makeStyles(() => ({
   colorText: {
     color: '#fff',
     fontFamily: 'Oooh Baby',
-    fontSize: '5rem'
+    fontSize: '5rem',
+    ['@media (max-width:490px)']: { 
+      fontSize: '3rem',
+      
+    }
   },
 
   title: {
     color: 'black',
-    fontSize: '3.3rem'
+    fontSize: '3.3rem',
+    ['@media (max-width:490px)']: { 
+      fontSize: '2.3rem',
+      marginLeft: '-70px',
+      textAlign: 'left'
+    }
   },
 
   goDown: {
@@ -58,3 +69,4 @@ export default makeStyles(() => ({
 
 
 }));
+
