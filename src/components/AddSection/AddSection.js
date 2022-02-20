@@ -54,6 +54,7 @@ export default function AddSection() {
 
           </Typography>
           <Box
+          className={classes.logoCap}
             component="img"
             sx={{
               height: 450,

@@ -7,7 +7,7 @@ export default makeStyles(() => ({
     alignItems: 'center',
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
-    
+
   }
 
 }));

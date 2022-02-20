@@ -14,5 +14,11 @@ export default makeStyles(() => ({
     marginTop: '-90px'
   },
 
+  logoCap: {
+    ['@media (max-width:490px)']: { 
+      display: 'none',
+      
+    }
+  }
 
 }));

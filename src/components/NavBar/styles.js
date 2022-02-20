@@ -16,7 +16,12 @@ export default makeStyles(() => ({
   appbarTitle: {
     flexGrow: '1',
     fontSize: '2.5rem',
-    textDecoration: 'none'
+    textDecoration: 'none',
+    ['@media (max-width:490px)']: { 
+      marginLeft: '-10px',
+      marginRight: '10px'
+      
+    }
   },
 
   iconBag: {
