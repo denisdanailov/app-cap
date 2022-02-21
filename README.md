@@ -23,3 +23,4 @@ Domain [app-cap](https://app-cap.netlify.app/).
 ![alt text](https://raw.githubusercontent.com/denisdanailov/app-cap/main/Screen-img.png)
 
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a2b60bec-56a6-4e37-8a48-ecae38fec0cc/deploy-status)](https://app.netlify.com/sites/app-cap/deploys)
