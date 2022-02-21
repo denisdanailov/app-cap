@@ -17,7 +17,7 @@ export default makeStyles(() => ({
     flexGrow: '1',
     fontSize: '2.5rem',
     textDecoration: 'none',
-    ['@media (max-width:490px)']: { 
+    '@media (max-width:490px)': { 
       marginLeft: '-10px',
       marginRight: '10px'
       
