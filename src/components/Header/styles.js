@@ -1,5 +1,4 @@
 import { makeStyles } from '@material-ui/core';
-import { textAlign } from '@mui/system';
 
 
 export default makeStyles(() => ({
