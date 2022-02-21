@@ -5,7 +5,7 @@ export default makeStyles(() => ({
     root:{
         minHeight: '100vh',
         
-        ['@media (max-width:490px)']: { 
+        '@media (max-width:490px)': { 
           display: 'none',
           
         }
