@@ -45,7 +45,7 @@ export default makeStyles(() => ({
     color: '#fff',
     fontFamily: 'Oooh Baby',
     fontSize: '5rem',
-    ['@media (max-width:490px)']: { 
+    '@media (max-width:490px)': { 
       fontSize: '3rem',
       
     }
@@ -54,7 +54,7 @@ export default makeStyles(() => ({
   title: {
     color: 'black',
     fontSize: '3.3rem',
-    ['@media (max-width:490px)']: { 
+    '@media (max-width:490px)': { 
       fontSize: '2.3rem',
       marginLeft: '-70px',
       textAlign: 'left'
